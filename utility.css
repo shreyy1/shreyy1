@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:ital,wght@1,700&display=swap');
+footer{
+
+    background-color:orangered;
+    color:rgb(17, 1, 1);
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-family: 'Bungee Spice', cursive;
+}
+.header{
+    height: 15vh;
+     background-color: aquamarine;
+     border: 1px dotted orange;
+}
+nav ul{
+    height: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Bungee Spice', cursive;
+   font-family: 'Montserrat', sans-serif;
+
+}
+nav ul li{
+    list-style: none;
+    padding:0 23px;
+}
+nav ul li a{
+    color:red;
+    text-decoration: none;
+}
+nav ul li a:hover{
+     font-weight:bolder ;
+     color:black
+}
